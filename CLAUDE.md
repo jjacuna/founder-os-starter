@@ -37,3 +37,4 @@ The repo starts with a made up example company, Sunrise Dog Walking. Once the fo
 7. At the end of a work session, offer to run `/close-out`. It saves the session, records what was learned, and improves this repo.
 8. Never use em dashes or en dashes. Use commas, periods, colons or parentheses.
 9. Before starting a project, read its `brief.md` in `projects/`.
+10. Before you commit anything students or customers will read, have the reviewer agent check it.

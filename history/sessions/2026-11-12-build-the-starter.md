@@ -12,10 +12,14 @@ This is a real session note. It records how this starter repo was made. If you a
 - Pushed the first version to GitHub
 - Replaced `/log-session` with `/close-out`, which also records learnings and improves the repo
 - Added [learnings.md](../learnings.md) and a start of session routine in [CLAUDE.md](../../CLAUDE.md)
+- Added "The elements" and "What you can use it for" to [README.md](../../README.md)
+- Had two reviewers check the close out loop, then fixed what they found: the summary now comes before the commit, learnings load through `CLAUDE.md`, and the learnings list has a size limit
+- Ran `/close-out` for the first time. It moved one learning into a house rule and fixed one of its own steps
 
 ## What we learned
 
-See [learnings.md](../learnings.md) for the three lessons from this session.
+- Two lessons from this session are in [learnings.md](../learnings.md). A third, review before you commit, is now house rule 10 in [CLAUDE.md](../../CLAUDE.md)
+- Running `/close-out` twice in one session should update the same note, not write a second one. That is now step 2 of the skill
 
 ## Decisions
 

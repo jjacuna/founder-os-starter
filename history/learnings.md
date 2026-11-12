@@ -21,11 +21,6 @@ Keep it short, about ten entries at most. When a learning becomes a rule in `CLA
 - What happened: A Claude Code cloud session could push to repos that already exist, but it was not allowed to create a new one, so the push waited on the founder.
 - Next time: Create an empty repo at github.com/new first (no README, no license), then give Claude the link.
 
-## 2026-11-12: Review with fresh eyes before the first commit
-
-- What happened: Three reviewers (a beginner, a consistency checker, a fact checker) found 22 problems in the first draft of this repo that the writers had missed.
-- Next time: For anything students or customers will read, have the reviewer agent check it before you commit.
-
 ## 2026-11-12: Check what a feature needs before teaching it
 
 - What happened: The fact check found that ultracode workflows need a paid plan, and on the Pro plan must be turned on in `/config`. The first draft of lesson 4 did not say so.

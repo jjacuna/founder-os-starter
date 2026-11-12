@@ -15,7 +15,8 @@ better each time. Do the steps in order. Keep everything short.
    corrected you.
 2. Save a session note. Create `history/sessions/YYYY-MM-DD-topic.md`
    with today's date and a short topic in lowercase words joined by
-   hyphens. If the file exists, add to it. Use these headings, a few
+   hyphens. If this session already has a note, update that note and
+   add only what is new. Use these headings, a few
    bullets each, and name the files that changed:
    - What we did
    - What we learned
