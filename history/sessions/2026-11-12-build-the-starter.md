@@ -3,7 +3,7 @@
 - Date: 2026-11-12
 - People: the founder, with Claude Code
 
-This is a real session note. It records how this starter repo was made.
+This is a real session note. It records how this starter repo was made. If you are a student, it is not about your company, and you can delete it once you have your own first note.
 
 ## What we did
 

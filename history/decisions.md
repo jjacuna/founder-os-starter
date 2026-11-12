@@ -2,7 +2,7 @@
 
 A short record of choices we made and why. Newest first.
 
-The entries below are for the made up example company. Keep them as a model, or delete them when you start your own log.
+The entries below came with the starter. Keep them as a model, or delete the ones that are not yours when you start your own log.
 
 ## Entry format
 

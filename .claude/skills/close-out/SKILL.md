@@ -1,6 +1,6 @@
 ---
 name: close-out
-description: Closes out a working session. Saves a session note, logs decisions, records what was learned, makes small improvements to this repo, then commits. Run this at the end of every session so the next one starts smarter.
+description: Closes out a working session. Saves a session note, logs decisions, records what was learned, makes small improvements to this repo, then commits and pushes. Run this at the end of every session so the next one starts smarter.
 ---
 
 # Close out
@@ -27,7 +27,9 @@ better each time. Do the steps in order. Keep everything short.
 4. Learn. Add up to three entries at the top of `history/learnings.md`
    in the format shown there. A learning is worth saving only if it
    would change what you do in a future session. Corrections from the
-   founder come first. If there is nothing new, add nothing.
+   founder come first. If there is nothing new, add nothing. Keep the
+   file to about ten entries. If it is longer, merge similar ones or
+   delete the least useful, and say which in the summary.
 5. Improve. Use the learnings to make the repo itself better, with one
    or two small changes at most. Good places to improve:
    - `CLAUDE.md`: add or sharpen a house rule
@@ -37,9 +39,13 @@ better each time. Do the steps in order. Keep everything short.
    - `history/learnings.md`: remove a learning once it has become a rule
      somewhere else, so the list stays short
    Make small changes right away. Ask first before you delete a file,
-   change a company fact you are unsure of, or make a big change.
-6. Commit everything with a clear message, then push. If there is no
-   GitHub copy to push to, say so and stop after the commit.
-7. Show a short summary with four parts: Saved (the note and decisions),
+   change or remove an existing house rule, change a company fact you
+   are unsure of, or make a big change. Keep `CLAUDE.md` short: if you
+   add a rule, check whether it can merge with one already there.
+6. Show a short summary with four parts: Saved (the note and decisions),
    Learned, Improved (each change and why), and Start here next time
-   (the first next step). Ask if anything is missing or wrong.
+   (the first next step). List the files that will be committed. Ask if
+   anything is missing or wrong, and fix it.
+7. Once the founder says yes, commit with a clear message, then push.
+   If there is no GitHub copy to push to, say so and stop after the
+   commit.

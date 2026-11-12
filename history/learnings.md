@@ -2,8 +2,8 @@
 
 Short lessons from past sessions that change how we work. Newest first.
 
-Claude reads this file at the start of every session, and `/close-out` adds to it at the end.
-Keep it short. When a learning becomes a rule in `CLAUDE.md` or a step in a skill, delete it from here.
+Claude loads this file at the start of every session, and `/close-out` adds to it at the end.
+Keep it short, about ten entries at most. When a learning becomes a rule in `CLAUDE.md` or a step in a skill, delete it from here.
 
 ## Entry format
 

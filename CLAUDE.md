@@ -23,8 +23,8 @@ The repo starts with a made up example company, Sunrise Dog Walking. Once the fo
 
 ## Start of every session
 
-1. Read `history/learnings.md` and follow what it says.
-2. Read the newest note in `history/sessions/` so you know where things stopped.
+1. Follow the learnings from past sessions. They are loaded here automatically: @history/learnings.md
+2. Read the note in `history/sessions/` with the latest date in its name, so you know where things stopped. If several share that date, read them all. Skip `2026-11-12-first-session.md`, it is an example.
 
 ## House rules
 

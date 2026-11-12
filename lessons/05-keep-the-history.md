@@ -21,9 +21,9 @@ a little better each time.
      lessons that change how you and Claude work. Claude reads it at the
      start of every session.
 
-   These are examples for the made up company. Once you have your own
-   first note, delete the example session note and the two example
-   decisions.
+   These came with the starter. Once you have your own first note,
+   delete the two session notes that came with the repo and the
+   decisions that are not yours. Keep any learnings that still help you.
 
 3. Run the close out skill at the end of your work.
 
@@ -38,14 +38,14 @@ a little better each time.
      sharper rule in `CLAUDE.md`.
    - Start here next time: the first next step.
 
-   Claude also commits the work, which saves a snapshot, and pushes it
-   to your copy on GitHub. Correct anything that is wrong.
+   Correct anything that is wrong, then say yes. Claude commits the
+   work, which saves a snapshot, and pushes it to your copy on GitHub.
 
 5. Add a decision yourself if one is missing.
 
    ```
    Add a decision to history/decisions.md: we will post a weekly update
-   on the website, because clients asked for news.
+   on the website, because clients asked for news. Then commit and push.
    ```
 
 6. Test the memory. Start a new session and ask:

@@ -18,4 +18,4 @@ Agents read this folder to learn what was already done and why, so they do not r
 
 - Run `/close-out` at the end of a work session. It writes a session note, logs decisions, adds learnings, and makes small improvements to the repo.
 - Name session notes `YYYY-MM-DD-topic.md`, for example `2026-11-12-first-session.md`.
-- Do not rewrite old entries. If a decision changes, add a new entry that says so.
+- Do not rewrite old decisions or session notes. If a decision changes, add a new entry that says so. Learnings are different: `/close-out` removes one once it has become a rule.
