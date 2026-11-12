@@ -2,7 +2,8 @@
 
 ## Goal
 
-End every session by saving what you did and decided, so nothing is lost.
+End every session with `/close-out`, so nothing is lost and the repo gets
+a little better each time.
 
 ## Steps
 
@@ -16,20 +17,29 @@ End every session by saving what you did and decided, so nothing is lost.
    - [history/sessions/2026-11-12-first-session.md](../history/sessions/2026-11-12-first-session.md)
      is a session note: what we did, what we learned, decisions (if
      any), and next steps.
+   - [history/learnings.md](../history/learnings.md) is the list of
+     lessons that change how you and Claude work. Claude reads it at the
+     start of every session.
 
    These are examples for the made up company. Once you have your own
    first note, delete the example session note and the two example
    decisions.
 
-3. Run the log session skill at the end of your work.
+3. Run the close out skill at the end of your work.
 
    ```
-   /log-session
+   /close-out
    ```
 
-4. Read what Claude wrote. It creates a new note in `history/sessions/`
-   named with today's date and a topic, and adds any decisions to the
-   decision log. Correct anything that is wrong.
+4. Read the summary Claude shows. It has four parts:
+   - Saved: a new note in `history/sessions/` and any decisions.
+   - Learned: new entries in `history/learnings.md`.
+   - Improved: one or two small fixes to the repo itself, such as a
+     sharper rule in `CLAUDE.md`.
+   - Start here next time: the first next step.
+
+   Claude also commits the work, which saves a snapshot, and pushes it
+   to your copy on GitHub. Correct anything that is wrong.
 
 5. Add a decision yourself if one is missing.
 
@@ -38,14 +48,7 @@ End every session by saving what you did and decided, so nothing is lost.
    on the website, because clients asked for news.
    ```
 
-6. Commit, so the history is saved with the work. Then push, which
-   sends your saved snapshots to your copy on GitHub.
-
-   ```
-   Commit these changes with a clear message, then push to GitHub
-   ```
-
-7. Test the memory. Start a new session and ask:
+6. Test the memory. Start a new session and ask:
 
    ```
    What did we do last session, and what should we do next?
@@ -56,7 +59,9 @@ End every session by saving what you did and decided, so nothing is lost.
 - The repo is the memory. If it is not written down, the next session
   will not know it.
 - The decision log records why, which is the part people forget first.
-- The habit: finish work, run `/log-session`, commit.
+- Learnings turn mistakes into rules, so the same problem does not
+  come back.
+- The habit: finish work, run `/close-out`.
 
 ## Next
 

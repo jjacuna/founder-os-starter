@@ -8,7 +8,7 @@ Five short lessons. Do them in order. Each one takes about 10 to 15 minutes.
 | [2. Teach it your company](02-teach-it-your-company.md) | Run `/onboard` and replace the example company with yours |
 | [3. Build the website](03-build-the-website.md) | Update the website from your company facts, preview it, commit |
 | [4. Agents and ultracode](04-agents-and-ultracode.md) | Meet the three agents, then run many agents at once |
-| [5. Keep the history](05-keep-the-history.md) | Run `/log-session` and save what you did and decided |
+| [5. Keep the history](05-keep-the-history.md) | Run `/close-out` so every session leaves the repo smarter |
 
 ## Every lesson has the same shape
 

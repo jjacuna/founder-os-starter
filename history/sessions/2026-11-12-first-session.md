@@ -3,7 +3,7 @@
 - Date: 2026-11-12
 - People: Sam Rivera, with Claude Code
 
-This is an example session note for the made up company. Yours will look like this after you run `/log-session`.
+This is an example session note for the made up company. Yours will look like this after you run `/close-out`.
 
 ## What we did
 

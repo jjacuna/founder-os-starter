@@ -24,6 +24,7 @@ founder-os-starter/
     brand-voice.md   # how the company sounds
   history/         # the memory of what happened and why
     decisions.md     # decision log, newest first
+    learnings.md     # lessons that make each session better
     sessions/        # one short note per work session
   projects/        # one subfolder per project, each with a brief.md
     website/         # the brief for the starter website
@@ -32,14 +33,37 @@ founder-os-starter/
   lessons/         # five short lessons, start here to learn
   .claude/         # extras for Claude Code
     agents/          # three helper agents: researcher, writer, reviewer
-    skills/          # two commands: /onboard and /log-session
+    skills/          # two commands: /onboard and /close-out
   LICENSE          # MIT license
   .gitignore       # files git should not track
 ```
 
+## The elements
+
+Founder OS has six parts. Each one has one job.
+
+| Element | Where | Its job |
+| --- | --- | --- |
+| Rules | `CLAUDE.md` | Tells Claude how this repo works. Loaded at the start of every session. |
+| Context | `company/` | The facts: who you are, who you serve, what you sell, how you sound. |
+| Memory | `history/` | What happened, what you decided and why, and what you learned. |
+| Work | `projects/`, `website/`, `apps/` | The things you build, each using the context. |
+| Agents | `.claude/agents/` | Helpers with one job each: researcher, writer, reviewer. |
+| Skills | `.claude/skills/` | Commands you type: `/onboard` to start, `/close-out` to finish. |
+
+## What you can use it for
+
+- **Teach Claude your company once.** Run `/onboard`, and every later session already knows your facts and voice.
+- **Build a website that matches your business.** The site in `website/` is written from the facts in `company/`.
+- **Write on brand.** Ask the writer agent for emails, posts or page copy, and the reviewer agent to check them.
+- **Find answers fast.** Ask the researcher agent what you decided, and why, months later.
+- **Keep one source of truth for apps.** Every app in `apps/` reads the same `company/` files.
+- **Learn agents and ultracode.** The lessons take you from one prompt to many agents working at once.
+- **Get better every session.** `/close-out` saves what you learned and improves the repo itself.
+
 ## How it works
 
-Claude Code reads [CLAUDE.md](CLAUDE.md) at the start of every session, so it always knows how this repo is laid out and what the house rules are. Before it writes anything about your company, it reads the files in [company/](company/README.md), so the work matches your real facts and your voice. At the end of a session, you run `/log-session` to save what you did and what you decided into [history/](history/README.md). Next time, you and Claude pick up where you left off, with nothing lost.
+Claude Code reads [CLAUDE.md](CLAUDE.md) at the start of every session, so it always knows how this repo is laid out and what the house rules are. Before it writes anything about your company, it reads the files in [company/](company/README.md), so the work matches your real facts and your voice. At the end of a session, you run `/close-out`. It saves what you did and decided into [history/](history/README.md), writes down what was learned, and makes small improvements to the repo itself. Next time, Claude reads those learnings first, so every session starts a little smarter than the last.
 
 ## Learn it step by step
 

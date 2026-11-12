@@ -18,4 +18,4 @@ Agents building an app read [company/](../company/) for names, prices, and brand
 
 1. Write a plan first in `projects/<app-name>/brief.md`. See [projects/README.md](../projects/README.md).
 2. Ask Claude to build the app in `apps/<app-name>/` from that brief.
-3. Record what you did with `/log-session`.
+3. Record what you did with `/close-out`.

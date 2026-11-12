@@ -13,12 +13,18 @@ The repo starts with a made up example company, Sunrise Dog Walking. Once the fo
 - `company/`: the facts. Overview, customers, offerings, brand voice. One topic per file.
 - `history/decisions.md`: the decision log, newest first.
 - `history/sessions/`: one short note per work session.
+- `history/learnings.md`: lessons from past sessions that change how we work.
 - `projects/`: one subfolder per project, each with a `brief.md`.
 - `website/`: the one page site (`index.html` and `styles.css`).
 - `apps/`: future apps, each in its own folder.
 - `lessons/`: the teaching guide for students.
 - `.claude/agents/`: three subagents: researcher, writer, reviewer.
-- `.claude/skills/`: two skills: `/onboard` and `/log-session`.
+- `.claude/skills/`: two skills: `/onboard` and `/close-out`.
+
+## Start of every session
+
+1. Read `history/learnings.md` and follow what it says.
+2. Read the newest note in `history/sessions/` so you know where things stopped.
 
 ## House rules
 
@@ -28,6 +34,6 @@ The repo starts with a made up example company, Sunrise Dog Walking. Once the fo
 4. Keep files short and simple. Plain words. A beginner should understand a file in one read.
 5. The website is plain HTML and CSS with no build step. Do not add frameworks, packages or build tools.
 6. When a decision is made, add it to the top of `history/decisions.md` with the date, the decision and why.
-7. At the end of a work session, offer to run `/log-session` so the context is saved.
+7. At the end of a work session, offer to run `/close-out`. It saves the session, records what was learned, and improves this repo.
 8. Never use em dashes or en dashes. Use commas, periods, colons or parentheses.
 9. Before starting a project, read its `brief.md` in `projects/`.
