@@ -1,0 +1,152 @@
+/* Sunrise Dog Walking styles.
+   You do not need to read all of this. Each block has a comment that
+   says what it styles. Change the colors here and the whole site updates. */
+:root {
+  --sky: #fff8ee;        /* page background, pale morning sky */
+  --glow: #ffe3bd;       /* soft orange for bands and the header */
+  --sun: #f6b24a;        /* sunrise yellow, used for accents only */
+  --ember: #a8401a;      /* deep orange for links and buttons */
+  --ink: #2b1d14;        /* main text, dark brown */
+  --ink-soft: #5a4336;   /* quieter text */
+  --card: #ffffff;       /* card background */
+  --radius: 14px;
+}
+
+/* Basics */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--sky);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+/* Headings and text */
+h1, h2, h3 {
+  line-height: 1.2;
+  margin: 0 0 0.5rem;
+}
+
+h1 { font-size: clamp(2.2rem, 7vw, 3.6rem); }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.15rem; }
+
+p { margin: 0 0 1rem; }
+
+a { color: var(--ember); }
+
+/* Keeps content centered with space on the sides */
+.wrap {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 3rem 1.25rem;
+}
+
+/* Header */
+.hero {
+  background: linear-gradient(180deg, var(--sun) 0%, var(--glow) 55%, var(--sky) 100%);
+  text-align: center;
+}
+
+.hero .wrap {
+  padding-top: 4.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.eyebrow {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.tagline {
+  font-size: 1.4rem;
+  margin-bottom: 1.75rem;
+}
+
+/* Buttons are links that look like buttons */
+.button {
+  display: inline-block;
+  background: var(--ember);
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.75rem 1.4rem;
+  border-radius: 999px;
+  overflow-wrap: anywhere;
+}
+
+.button:hover,
+.button:focus {
+  background: var(--ink);
+}
+
+.button:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 3px;
+}
+
+/* Intro */
+.intro {
+  max-width: 44rem;
+  font-size: 1.15rem;
+}
+
+/* Colored bands that break up the page */
+.band { background: var(--glow); }
+
+/* Service cards */
+.cards {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1.25rem;
+}
+
+.card {
+  background: var(--card);
+  border-top: 6px solid var(--sun);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+}
+
+/* The short description at the bottom of a card */
+.card p:last-child {
+  margin-bottom: 0;
+  color: var(--ink-soft);
+}
+
+/* The big price on a card */
+.price {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--ember);
+  margin-bottom: 0.5rem;
+}
+
+/* Two columns side by side, stacked on small screens */
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 2rem;
+}
+
+#who-we-help .two-col { margin-top: 1.5rem; }
+
+/* Footer */
+.footer {
+  background: var(--ink);
+  color: var(--sky);
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.footer .wrap {
+  padding: 2rem 1.25rem;
+}
+
+.footer p { margin: 0.25rem 0; }
